@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import gsap, { Linear, Power1 } from "gsap";
 
-const marquee = () => {
+const Marquee = () => {
   useEffect(() => {
     let currentScroll = 0;
     let isScrollingDown = true;
@@ -110,4 +110,4 @@ const marquee = () => {
   );
 };
 
-export default marquee;
+export default Marquee;

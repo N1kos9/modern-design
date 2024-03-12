@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-const horizontalScroll = () => {
+const HorizontalScroll = () => {
   const racesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -57,4 +57,4 @@ const horizontalScroll = () => {
   );
 };
 
-export default horizontalScroll;
+export default HorizontalScroll;

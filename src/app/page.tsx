@@ -191,10 +191,10 @@ const Loader: React.FC = () => {
         </div>
         <div className="header flex flex-col justify-center items-center w-full h-[100vh] text-center">
           <div className="wrapping-title flex-col flex">
-            <h1 className="h11 text-[5vw] uppercase text-center  leading-none ">
+            <h1 className="h11 text-[5vw] uppercase text-center mt-12 leading-none ">
               Modern
             </h1>
-            <h1 className="h11 md:text-[20vw] text-[28vw] uppercase text-center  leading-none ">
+            <h1 className="h11 md:text-[20vw] mt-16 text-[28vw] uppercase text-center  leading-none ">
               Style
             </h1>
           </div>
