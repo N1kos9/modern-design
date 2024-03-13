@@ -101,7 +101,9 @@ const Loader: React.FC = () => {
           ease: Power2.easeInOut,
           duration: 0.5,
           delay: 3.75,
-          onComplete: () => gsap.set(".count", { display: "none" }),
+          onComplete: () => {
+            gsap.set(".count", { display: "none" });
+          },
         },
       },
       {
@@ -111,7 +113,9 @@ const Loader: React.FC = () => {
           ease: Power4.easeInOut,
           duration: 2,
           delay: 3,
-          onComplete: () => gsap.set(".pre-loader", { display: "none" }),
+          onComplete: () => {
+            gsap.set(".pre-loader", { display: "none" });
+          },
         },
       },
       {
@@ -121,7 +125,9 @@ const Loader: React.FC = () => {
           ease: Power4.easeInOut,
           duration: 1.5,
           delay: 3.75,
-          onComplete: () => gsap.set(".loader", { display: "none" }),
+          onComplete: () => {
+            gsap.set(".loader", { display: "none" });
+          },
         },
       },
       {
@@ -131,7 +137,9 @@ const Loader: React.FC = () => {
           ease: Power4.easeInOut,
           duration: 1.5,
           delay: 4,
-          onComplete: () => gsap.set(".loader-bg", { display: "none" }),
+          onComplete: () => {
+            gsap.set(".loader-bg", { display: "none" });
+          },
         },
       },
       {
@@ -141,7 +149,9 @@ const Loader: React.FC = () => {
           ease: Power4.easeInOut,
           duration: 1.5,
           delay: 3.5,
-          onComplete: () => gsap.set(".loader-2", { display: "none" }),
+          onComplete: () => {
+            gsap.set(".loader-2", { display: "none" });
+          },
         },
       },
       {
