@@ -3,6 +3,12 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
+const NEXTAUTH_URL = process.env.NEXTAUTH_URL;
+
 import { getServerSession } from "next-auth";
 import SessionProvider from "../utils/SessionProvider";
 
